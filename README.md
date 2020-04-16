@@ -9,9 +9,9 @@ see [Preprint](paper/htm_icip2001.pdf)  or [DOI:10.1109/ICIP.2001.959126](http:/
 ## Getting started in Octave
 
 
-## Examples
+## Example: reproducing results in Fig.1 of the [paper](paper/htm_icip2001.pdf) 
 
-<img width="200" alt="" src="images/60.jpg"><img width="200" alt="" src="images/65.jpg"><img width="200" alt="" src="images/70.jpg"><img width="200" alt="" src="images/75.jpg"><img width="200" alt="" src="images/80.jpg">
+<img width="200" alt="" src="images/fig1.jpg"><img width="200" alt="" src="images/fig2.jpg"><img width="200" alt="" src="images/fig3.jpg"><img width="200" alt="" src="images/fig4.jpg"><img width="200" alt="" src="images/fig5.jpg">
 
 
 ## Author: 
