@@ -6,7 +6,7 @@ Matlab/Octave code associated with the following publication:
 R. Dahyot, P. Charbonnier and F. Heitz, IEEE International Conference on Image Processing (ICIP'01), October 2001, Greece.
 see [Preprint](paper/htm_icip2001.pdf)  or [DOI:10.1109/ICIP.2001.959126](http://dx.doi.org/10.1109/ICIP.2001.959126)
 
-Please cite this ICIP conference paper when code used.
+Please cite this ICIP conference paper when using this code and pictures. 
 
 ## Getting started in Octave/Matlab
 
