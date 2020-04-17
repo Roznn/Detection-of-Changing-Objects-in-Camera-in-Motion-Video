@@ -15,8 +15,7 @@ Demo is launched by typing in the command window of Octave or Matlab:
 > RzDDemoICIP2001 
 
 
-
-## Example: reproducing results in Fig.1 of the [paper](paper/htm_icip2001.pdf) 
+This code reproduces the results shown in Fig.1 of the [paper](paper/htm_icip2001.pdf) 
 
 <img width="200" alt="" src="images/fig1.jpg"><img width="200" alt="" src="images/fig2.jpg"><img width="200" alt="" src="images/fig3.jpg">
 
