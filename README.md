@@ -12,6 +12,7 @@ Demo is launched by typing in the command window of Octave or Matlab:
 
 > RzDDemoICIP2001 
 
+Please cite this ICIP conference paper when code used.
 
 ## Example: reproducing results in Fig.1 of the [paper](paper/htm_icip2001.pdf) 
 
