@@ -17,12 +17,15 @@ I2=imread('images/80.jpg');figure;imshow(I2),title('I_{80}')
 
 %Histograms computation
 ResHistColour=[0 1 21; 0 1 21];
-[Histo0,Ind0]=RzDHistogram([r0(:) g0(:)]',ResHistColour);Histo0=Histo0/sum(Histo0(:));
-[Histo1,Ind1]=RzDHistogram([r1(:) g1(:)]',ResHistColour);Histo1=Histo1/sum(Histo1(:));
-[Histo2,Ind2]=RzDHistogram([r2(:) g2(:)]',ResHistColour);Histo2=Histo2/sum(Histo2(:));
+[Histo0,Ind0]=RzDHistogram([r0(:) g0(:)]',ResHistColour);Histo0=Histo0/sum(Histo0(:));figure;imagesc(log(Histo0+eps)),title('2D Histogram (r,g) I_{70}')
+[Histo1,Ind1]=RzDHistogram([r1(:) g1(:)]',ResHistColour);Histo1=Histo1/sum(Histo1(:));figure;imagesc(log(Histo1+eps)),title('2D Histogram (r,g) I_{75}')
+[Histo2,Ind2]=RzDHistogram([r2(:) g2(:)]',ResHistColour);Histo2=Histo2/sum(Histo2(:));figure;imagesc(log(Histo2+eps)),title('2D Histogram (r,g) I_{80}')
 
 HOA=max(Histo1-2*Histo2,0); % Eq. (5)
+figure;imagesc(log(HOA+eps)),title('2D Histogram (r,g) for backward projection')
+
 HOD=max(Histo1-2*Histo0,0);  % Eq. (8)
+figure;imagesc(log(HOD+eps)),title('2D Histogram (r,g) for forward projection')
 
 %Backprojection maps
 maplikA=RzDBackprojection(Ind1,HOA/sum(HOA(:)));
