@@ -29,4 +29,4 @@ This code reproduces the results shown in Fig.1 of the [paper](paper/htm_icip200
 
 ## Author: 
 
-[Rozenn Dahyot](https://roznn.github.io/)
+[Rozenn Dahyot](https://twitter.com/RDahyot)
